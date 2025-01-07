@@ -1,0 +1,7 @@
+spring:
+  config:
+    name: backend_template
+  profiles:
+    active: dev
+  session:
+    store-type: redis
