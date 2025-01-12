@@ -47,7 +47,7 @@ public enum ResultEnum {
     SESSION_INVALID(6011, "会话无效"), // 新增：会话无效错误码
     TOKEN_EXPIRED(6012, "令牌已过期"), // 新增：令牌过期错误码
     TOKEN_INVALID(6013, "令牌无效"), // 新增：令牌无效错误码
-
+    PASSWORD_NOT_MATCH(6014,"密码不匹配"),
     // ===================== 其他 =====================
     UNKNOWN_ERROR(9999, "未知错误");
 

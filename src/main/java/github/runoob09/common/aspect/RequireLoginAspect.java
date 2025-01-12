@@ -1,7 +1,7 @@
 package github.runoob09.common.aspect;
 
 import github.runoob09.common.constant.SysUserConstant;
-import github.runoob09.common.result.BusinessException;
+import github.runoob09.common.exception.BusinessException;
 import github.runoob09.common.result.ResultEnum;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;

@@ -37,7 +37,7 @@ public class BasicResult<T> {
     }
 
     // 成功返回，带数据
-    public static <T> BasicResult<T> success(T data) {
+    public static <T> BasicResult<T>  success(T data) {
         return new BasicResult<>(ResultEnum.SUCCESS.getCode(), ResultEnum.SUCCESS.getMessage(), data);
     }
 

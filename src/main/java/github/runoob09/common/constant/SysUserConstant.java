@@ -1,5 +1,6 @@
 package github.runoob09.common.constant;
 
+import com.baomidou.mybatisplus.annotation.EnumValue;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
@@ -19,6 +20,8 @@ public class SysUserConstant {
     public enum Status {
         ACTIVE(0,"正常"),
         BANNED(1,"封禁");
+
+        @EnumValue
         private final Integer code;
         private final String value;
     }
@@ -31,6 +34,8 @@ public class SysUserConstant {
     public enum Gender {
         MALE(0,"男性"),
         BANNED(1,"女性");
+
+        @EnumValue
         private final Integer code;
         private final String value;
     }

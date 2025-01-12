@@ -9,3 +9,6 @@ spring:
       host: localhost
       port: 6379
       database: 0
+security:
+  aes:
+    key: 7f9a2b4c8d6e1f3a
